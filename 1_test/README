@@ -1,0 +1,11 @@
+Understand how to write things using Cuda.
+
+To compile:
+$ nvcc xxx.cu
+To run:
+$ ./a.out
+
+So chill!
+
+Comments in vectorAdd.cu tell you everything I know about how
+GPU programming works.
