@@ -1,6 +1,6 @@
 #include<iostream>
 
-#define SIZE 2048*2048
+#define SIZE 2048
 #define THREADS_PER_BLOCK 512
 
 using std::cout;
