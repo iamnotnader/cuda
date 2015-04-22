@@ -16,8 +16,8 @@ __global__ void vectorAdd(int* a, int* b, int* c, int n) {
   // device memory?
   //
   // Host pointers can be passed to device code but cannot
-  // be dereferenced by device code. The same is true for host
-  // pointers-- they can't be dereferenced by device code.
+  // be dereferenced by device code. The same is true for device
+  // pointers-- they can't be dereferenced by host code.
   //
   // So basically what you do is you let the GPU do shit in its
   // own memory, then copy everything over at the end.
